@@ -1,0 +1,27 @@
+.news-list{
+    .card{
+        margin-bottom: 22px;
+        .card-title{
+            font-size: 16px;
+        }
+        .card-text{
+            font-size: 12px;
+        }
+        .btn{
+            width: 100%;
+            display: block;
+            border-radius: 4px;
+            background-color: #1f1f1f;
+            &:hover{
+                background-color: #555;
+            }
+        }
+    }
+
+    .ant-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 16px auto;
+    }
+}

@@ -1,0 +1,43 @@
+.tab-container{
+    .tab-wrap{
+        padding: 6px 0;
+        margin-bottom: 6px;
+        border-bottom: 1px solid #ddd;
+    }
+    .nav-pills {
+        .nav-link{
+            border-radius: 0;
+            color: #171717;
+            margin: 0;
+            &.active{
+                background-color: #171717;
+                color: white;
+            }
+        }
+        @include media-breakpoint-down(md) { 
+            @include flex(center, center);
+        }
+    }
+    .ant-select{
+        width: 100%;
+    }
+    .ant-input-search{
+        > .ant-input-group{
+            .ant-input{
+                height: 30px;
+            }
+            > .ant-input-group-addon{
+                &:last-child {
+                    .ant-input-search-button{
+                        background: #171717;
+                        height: 40px;
+                        .anticon svg{
+                            margin-top: -8px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

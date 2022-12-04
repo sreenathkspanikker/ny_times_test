@@ -1,0 +1,14 @@
+header{
+    .container{
+        .figure{
+            margin: 0;
+            display: block;
+            border-bottom: 1px solid #ddd;
+            .figure-img{
+                margin: 6px auto;
+                display: block;
+                max-width: 270px;
+            }
+        }
+    }
+}

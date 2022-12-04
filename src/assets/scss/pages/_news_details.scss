@@ -1,0 +1,18 @@
+.news-details{
+    .news-detail-item{
+        padding: 16px 0;
+        .btn{
+            width: auto;
+            display: inline-block;
+            margin-bottom: 16px;
+        }
+        p{
+            margin-top: 16px;
+            > small{
+                display: block;
+                color: #999;
+                margin-bottom: 12px;
+            }
+        }
+    }
+}

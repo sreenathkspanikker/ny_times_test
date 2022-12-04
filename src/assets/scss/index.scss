@@ -1,0 +1,27 @@
+// BOOTSTRAP 
+@import '~bootstrap/scss/bootstrap-grid.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+
+// ANTD
+@import '~antd/dist/antd.css';
+
+// FONT
+@import './fonts/poppins';
+
+// UTILS
+@import "./utils/variables", "./utils/mixins";
+
+// NORMALISE
+@import "./core/normalize";
+
+// COMPONENTS
+@import "./components/layout", 
+        "./components/button", 
+        "./components/header", 
+        "./components/tab", 
+        "./components/register";
+
+        
+// HOME
+@import "./pages/home",
+        "./pages/news_details";
