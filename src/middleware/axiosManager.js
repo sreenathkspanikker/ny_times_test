@@ -4,7 +4,7 @@ import {GET_VALUES} from './';
 import { memoizedRefreshToken } from "./refreshToken";
 
 var Config = {
-    API_AUTH_URL : 'http://localhost:2000/auth',
+    API_AUTH_URL : 'http://localhost:8000/auth',
     API_MAIN_URL : 'https://api.nytimes.com/svc'
 };
 
